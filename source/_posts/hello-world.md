@@ -35,5 +35,4 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 ``` bash
 $ hexo deploy
 ```
-
 More info: [Deployment](https://hexo.io/docs/deployment.html)
