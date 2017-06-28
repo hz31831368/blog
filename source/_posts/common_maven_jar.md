@@ -100,4 +100,26 @@ servlet,jsp相关
 	<version>1.1.2</version>
 </dependency>
 ```
+webmagic爬虫框架
 
+```
+<dependency>
+	<groupId>us.codecraft</groupId>
+	<artifactId>webmagic-core</artifactId>
+	<version>0.5.3</version>
+</dependency>
+<dependency>
+	<groupId>us.codecraft</groupId>
+	<artifactId>webmagic-extension</artifactId>
+	<version>0.5.3</version>
+</dependency>
+```
+selenium-java
+
+```
+<dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-java</artifactId>
+	<version>2.53.0</version>
+</dependency>
+```
