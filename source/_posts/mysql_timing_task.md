@@ -26,14 +26,14 @@ select * from mysql.event
 如果原来存在该名字的任务计划则先删除  
 
 ```
-drop event if exist upload_to_sdmp;
+drop event upload_to_sdmp;
 ```
 
 新建一个定时任务
 
 ```
 --从20170704开始每天执行
-CREATE EVENT IF NOT EXISTS e_test
+CREATE EVENT e_test
 ON SCHEDULE EVERY 1 DAY STARTS TIMESTAMP '2017-07-04 00:00:00'
 DO DELETE FROM `table` WHERE `time`< now();
 
