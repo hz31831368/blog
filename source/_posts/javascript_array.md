@@ -1,9 +1,7 @@
 ---
-title: JavaScript数组相关方法
+title: Javascript高级程序设计读书笔记 -- 数组  
 date: 2017/7/5
 ---
-
-### Javascript高级程序设计读书笔记 -- 数组  
 
 #### 在数组末尾添加数据
 ```
