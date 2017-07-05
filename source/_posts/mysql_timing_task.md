@@ -2,6 +2,7 @@
 title: mysql定时任务
 date: 2017/7/3
 ---
+
 要想保证能够执行event事件，就必须保证定时器是开启状态，默认为关闭状态
 
 ```
@@ -16,6 +17,12 @@ SHOW VARIABLES LIKE 'event_scheduler'
 or
 SELECT @@event_scheduler;
 ```
+
+查看事件
+```
+select * from mysql.event
+```
+
 如果原来存在该名字的任务计划则先删除  
 
 ```
