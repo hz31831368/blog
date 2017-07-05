@@ -1,5 +1,5 @@
 ---
-title: 数组 -- Javascript高级程序设计读书笔记
+title: 数组 -- JavaScript高级程序设计读书笔记
 date: 2017/7/5
 ---
 
