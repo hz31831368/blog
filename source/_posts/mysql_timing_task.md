@@ -72,3 +72,4 @@ ALTER EVENT upload_to_sdmp DISABLE;
 
 --开启事件：  
 ALTER EVENT upload_to_sdmp ENABLE; 
+```
