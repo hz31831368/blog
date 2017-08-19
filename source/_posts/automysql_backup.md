@@ -1,6 +1,7 @@
 ---
 title: Linux系统下用AutoMySQLBackup备份MySQL
 date: 2017/6/14
+tags: 数据库
 ---
 
 下载最新版的 AutoMySQLBackup
