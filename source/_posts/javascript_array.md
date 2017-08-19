@@ -1,6 +1,7 @@
 ---
-title: 数组 -- JavaScript高级程序设计读书笔记
+title: JavaScript数组
 date: 2017/7/5
+tags: JavaScript
 ---
 
 #### 在数组末尾添加数据
