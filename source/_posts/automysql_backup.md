@@ -22,6 +22,7 @@ apt-get install automysqlbackup
 mkdir /opt/automysqlbackup
 tar zxvf automysqlbackup-v3.0_rc6.tar.gz -C /opt/automysqlbackup
 ```
+<!-- more -->
 解压完成后运行安装脚本
 ```
 cd /opt/automysqlbackup
