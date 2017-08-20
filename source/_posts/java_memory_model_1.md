@@ -109,7 +109,7 @@ public void writer() {
 Public void reader() {
     if (flag) {                //3
         int i =  a * a;        //4
-        ……
+        
     }
 }
 }
