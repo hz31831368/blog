@@ -26,7 +26,9 @@ SuperClass[] sca = new SuperClass[10];
 
 //常量在编译阶段会存入调用类的常量池中，本质上没有直接引用到定义常量的类，因此不会和促发定义常量的类的初始化。
 System.out.println(ConstClass.HELLOWORLD);
-```
+```  
+<!-- more --> 
+
 #### 类加载的过程
 ##### 加载
 加载是类加载过程的一个阶段，在加载阶段，虚拟机需要完成以下3件事情
