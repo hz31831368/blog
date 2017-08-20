@@ -26,7 +26,8 @@ class VolatileFeaturesExample {
 }
 ```  
 
-假设有多个线程分别调用上面程序的三个方法，这个程序在语义上和下面程序等价：
+假设有多个线程分别调用上面程序的三个方法，这个程序在语义上和下面程序等价：  
+
 ```
 class VolatileFeaturesExample {
     long vl = 0L;               // 64位的long型普通变量
@@ -57,6 +58,7 @@ class VolatileFeaturesExample {
 
 - 可见性。对一个volatile变量的读，总是能看到（任意线程）对这个volatile变量最后的写入。
 - 原子性：对任意单个volatile变量的读/写具有原子性，但类似于volatile++这种复合操作不具有原子性。
+  
 
 <!--more-->  
 
@@ -85,7 +87,8 @@ class VolatileExample {
         }
     }
 }
-```
+```  
+
 假设线程A执行writer()方法之后，线程B执行reader()方法。根据happens
 before规则，这个过程建立的happens before 关系可以分为两类：
 
