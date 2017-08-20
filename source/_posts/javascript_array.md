@@ -35,6 +35,8 @@ var item = colors.pop();
 alert(item);    //"black"
 alert(colors.length);    //2
 ```
+<!-- more -->
+
 #### 数组队列方法  
 shift(): 移除数组中的第一项并返回该项，数组长度减1,。
 
