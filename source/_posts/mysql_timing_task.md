@@ -29,7 +29,7 @@ select * from mysql.event
 ```
 drop event upload_to_sdmp;
 ```
-
+<!-- more -->
 新建一个定时任务
 
 ```
