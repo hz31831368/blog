@@ -58,7 +58,8 @@ class VolatileFeaturesExample {
 - 可见性。对一个volatile变量的读，总是能看到（任意线程）对这个volatile变量最后的写入。
 - 原子性：对任意单个volatile变量的读/写具有原子性，但类似于volatile++这种复合操作不具有原子性。
 
-<!--more-->
+<!--more-->  
+
 ## volatile的写-读建立的happens before关系
 上面讲的是volatile变量自身的特性，对程序员来说，volatile对线程的内存可见性的影响比volatile自身的特性更为重要，也更需要我们去关注。
 
