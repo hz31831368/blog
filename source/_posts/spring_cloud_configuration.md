@@ -7,6 +7,8 @@ tags: Spring Cloud
 Spring Cloud相关组件的依赖注解及配置，自己做个笔记。根据以下博客整理
 - http://blog.csdn.net/forezp/article/details/70148833
 - http://www.cnblogs.com/skyblog/p/5127690.html
+
+
 ### 基础pom结构
 
 ```
