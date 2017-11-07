@@ -75,6 +75,8 @@ Spring Cloud相关组件的依赖注解及配置，自己做个笔记。根据�
 </project>
 ```
 
+<!--more-->
+
 ### 分布式配置中心-Spring Cloud Config
 #### dependence
 ```
