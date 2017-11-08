@@ -26,6 +26,8 @@ tags: [Spring Boot, Swagger]
             <version>2.2.2</version>
         </dependency>
 ```
+
+<!-- more -->
 ### Swagger配置类
 在Spring Boot启动类的同一目录下新建Swagger配置类
 
